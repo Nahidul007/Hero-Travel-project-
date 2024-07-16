@@ -1,1 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+/* Share style here */
+.container{
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+
+h3{
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.span{
+    color: rgb(255, 84, 0);
+
+}
+
+p{
+   font-size: 18px;
+   font-weight: normal;
+   line-height: normal;
+}
+
+/* Nevber stard here */
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo{
+    display: flex;
+    align-items: center;
+    max-width: 280px;
+}
+
+.navlogo img{
+    width: 48px;
+    height: 56px;
+    margin-right: 0.6rem;
+}
+
+.nav-option{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+}
+
+.nav-option p{
+    cursor: pointer;
+}
+ 
 
